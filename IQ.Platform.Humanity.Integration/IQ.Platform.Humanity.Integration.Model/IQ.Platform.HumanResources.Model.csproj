@@ -62,20 +62,20 @@
     <Compile Include="LinkRelations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleResource.cs" />
-    <Compile Include="SupportResources\Address.cs" />
-    <Compile Include="SupportResources\Availability.cs" />
+    <Compile Include="Entities\Address.cs" />
+    <Compile Include="Entities\Availability.cs" />
     <Compile Include="SupportResources\Employee.cs" />
     <Compile Include="SupportResources\Location.cs" />
-    <Compile Include="SupportResources\OperatingDayShift.cs" />
-    <Compile Include="SupportResources\OperatingHourShift.cs" />
-    <Compile Include="SupportResources\StoreShifts.cs" />
-    <Compile Include="SupportResources\OperatingDay.cs" />
-    <Compile Include="SupportResources\OperatingHour.cs" />
-    <Compile Include="SupportResources\OverTimeSetting.cs" />
-    <Compile Include="SupportResources\PermissionLevel.cs" />
-    <Compile Include="SupportResources\Phone.cs" />
-    <Compile Include="SupportResources\StoreHours.cs" />
-    <Compile Include="SupportResources\TimeMode.cs" />
+    <Compile Include="Operations\OperatingDayShift.cs" />
+    <Compile Include="Operations\OperatingHourShift.cs" />
+    <Compile Include="Configurations\StoreShifts.cs" />
+    <Compile Include="Operations\OperatingDay.cs" />
+    <Compile Include="Operations\OperatingHour.cs" />
+    <Compile Include="Enums\OverTimeSetting.cs" />
+    <Compile Include="Entities\PermissionLevel.cs" />
+    <Compile Include="Entities\Phone.cs" />
+    <Compile Include="Configurations\StoreHours.cs" />
+    <Compile Include="Enums\TimeMode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

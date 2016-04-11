@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using IQ.Platform.Framework.Common;
 using IQ.Platform.Framework.WebApi.Model.Hypermedia;
+using IQ.Platform.HumanResources.Model.Configurations;
+using IQ.Platform.HumanResources.Model.Operations;
 
 namespace IQ.Platform.HumanResources.Model.SupportResources
 {

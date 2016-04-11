@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IQ.Platform.HumanResources.Model.Operations;
 
-namespace IQ.Platform.HumanResources.Model.SupportResources
+namespace IQ.Platform.HumanResources.Model.Configurations
 {
     /// <summary>
     /// class that represent the store hours

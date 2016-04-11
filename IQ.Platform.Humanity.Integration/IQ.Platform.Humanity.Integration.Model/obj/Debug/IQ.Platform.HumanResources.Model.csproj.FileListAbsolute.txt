@@ -9,3 +9,14 @@ C:\Dev\Humanities\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integrat
 C:\Dev\Humanities\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.dll
 C:\Dev\Humanities\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.pdb
 C:\Dev\Humanities\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.csprojResolveAssemblyReference.cache
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.csprojResolveAssemblyReference.cache
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.dll
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\obj\Debug\IQ.Platform.HumanResources.Model.pdb
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.HumanResources.Model.xml
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.HumanResources.Model.dll
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.HumanResources.Model.pdb
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.Framework.Common.dll
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.dll
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.xml
+C:\Dev\HumanityIntegration\IQ.Platform.Humanity.Integration\IQ.Platform.Humanity.Integration.Model\bin\Debug\Newtonsoft.Json.xml

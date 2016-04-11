@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQ.Platform.HumanResources.Model.SupportResources
+namespace IQ.Platform.HumanResources.Model.Entities
 {
     /// <summary>
     /// class that represents permission level, this object is intended to map to security role of RQ

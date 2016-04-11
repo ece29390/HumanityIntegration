@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using IQ.Platform.HumanResources.Model.Enums;
 
-namespace IQ.Platform.HumanResources.Model.SupportResources
+namespace IQ.Platform.HumanResources.Model.Operations
 {
     /// <summary>
     /// class that represents operating hour shift

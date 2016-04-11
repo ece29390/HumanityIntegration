@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IQ.Platform.HumanResources.Model.SupportResources
+namespace IQ.Platform.HumanResources.Model.Operations
 {
     /// <summary>
     /// class that represents the operating hour
