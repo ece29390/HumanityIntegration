@@ -30,6 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IQ.Platform.Framework.Common, Version=3.16.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IQ.Platform.Framework.Common.3.16.0\lib\portable-net40+sl50+win+wp80+MonoAndroid10+MonoTouch10\IQ.Platform.Framework.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="IQ.Platform.Framework.WebApi.Model, Version=3.8.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\IQ.Platform.Framework.WebApi.Model.3.8.0\lib\portable-net40+sl50+win+wp80+MonoAndroid10+MonoTouch10\IQ.Platform.Framework.WebApi.Model.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -40,7 +52,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EmployeeBusiness.cs" />
+    <Compile Include="ICrudBusinessBase.cs" />
+    <Compile Include="LocationBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IQ.Platform.Humanity.Integration.Model\IQ.Platform.HumanResources.Model.csproj">
+      <Project>{f1be99c5-041c-4366-9e74-0ad3632a8611}</Project>
+      <Name>IQ.Platform.HumanResources.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

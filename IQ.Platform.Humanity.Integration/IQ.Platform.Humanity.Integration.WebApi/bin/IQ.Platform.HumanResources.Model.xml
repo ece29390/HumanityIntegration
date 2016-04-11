@@ -44,54 +44,59 @@
             Description for the SampleResource
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.Address">
-            <summary>
-            gets or sets the address
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Address.AddressLine">
-            <summary>
-            gets or sets the address
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Address.City">
-            <summary>
-            gets or sets the name of the city
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Address.State">
-            <summary>
-            gets or sets the state
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Address.Zip">
-            <summary>
-            gets or sets the zip
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Address.Country">
-            <summary>
-            gets or sets the country
-            </summary>
-        </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.Availability">
+        <member name="T:IQ.Platform.HumanResources.Model.Entities.Availability">
             <summary>
             object that represents Availability
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Availability.DayOfWeek">
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Availability.DayOfWeek">
             <summary>
             gets or sets the DayOfWeek enum
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Availability.AvailabilityStart">
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Availability.AvailabilityStart">
             <summary>
             gets or sets the availability start
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Availability.AvailabilityEnd">
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Availability.AvailabilityEnd">
             <summary>
             gets or sets the availability end
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.HumanResources.Model.Entities.PermissionLevel">
+            <summary>
+            class that represents permission level, this object is intended to map to security role of RQ
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.PermissionLevel.PermissionId">
+            <summary>
+            gets or sets the permission id
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.PermissionLevel.Name">
+            <summary>
+            gets or sets the description of the level
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.HumanResources.Model.Entities.Phone">
+            <summary>
+            gets or sets the Phone
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Phone.Number">
+            <summary>
+            gets or sets the number
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Phone.Extension">
+            <summary>
+            gets or sets the extension number
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Entities.Phone.Type">
+            <summary>
+            gets or sets the type of phone, it could be work, home, etc.
             </summary>
         </member>
         <member name="T:IQ.Platform.HumanResources.Model.SupportResources.Employee">
@@ -294,219 +299,214 @@
             gets or sets the Location shifts
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.OperatingDayShift">
+        <member name="T:IQ.Platform.HumanResources.Model.Operations.OperatingDayShift">
             <summary>
             class that represents operating day shift
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingDayShift.Open">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingDayShift.Open">
             <summary>
             gets or sets the opening shift
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingDayShift.Close">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingDayShift.Close">
             <summary>
             gets or sets the close shift
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.OperatingHourShift">
+        <member name="T:IQ.Platform.HumanResources.Model.Operations.OperatingHourShift">
             <summary>
             class that represents operating hour shift
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingHourShift.Hour">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingHourShift.Hour">
             <summary>
             gets or sets the hour
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingHourShift.Minute">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingHourShift.Minute">
             <summary>
             gets or sets the minute
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingHourShift.Mode">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingHourShift.Mode">
             <summary>
             gets or sets the mode, either AM or PM
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts">
+        <member name="T:IQ.Platform.HumanResources.Model.Operations.StoreShifts">
             <summary>
             class that represents store shifts
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Monday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Monday">
             <summary>
             gets or sets the shift for monday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Tuesday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Tuesday">
             <summary>
             gets or sets the shift for tueday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Wednesday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Wednesday">
             <summary>
             gets or sets the shift for wednesday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Thursday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Thursday">
             <summary>
             gets or sets the shift for thursday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Friday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Friday">
             <summary>
             gets or sets the shift for friday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Saturday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Saturday">
             <summary>
             gets or sets the shift for saturday
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreShifts.Sunday">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.StoreShifts.Sunday">
             <summary>
             gets or sets the shift for sunday
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.OperatingDay">
+        <member name="T:IQ.Platform.HumanResources.Model.Operations.OperatingDay">
             <summary>
             class that represents the operating day
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingDay.Open">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingDay.Open">
             <summary>
             gets or sets opening hour
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingDay.Close">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingDay.Close">
             <summary>
             gets or sets the closing hour
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.OperatingHour">
+        <member name="T:IQ.Platform.HumanResources.Model.Operations.OperatingHour">
             <summary>
             class that represents the operating hour
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingHour.Hour">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingHour.Hour">
             <summary>
             gets or sets the hour
             </summary>
         </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.OperatingHour.Minute">
+        <member name="P:IQ.Platform.HumanResources.Model.Operations.OperatingHour.Minute">
             <summary>
             gets or sets the minute
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.OverTimeSetting">
+        <member name="T:IQ.Platform.HumanResources.Model.Enums.OverTimeSetting">
             <summary>
             custom type for overtime
             </summary>
         </member>
-        <member name="F:IQ.Platform.HumanResources.Model.SupportResources.OverTimeSetting.Daily">
+        <member name="F:IQ.Platform.HumanResources.Model.Enums.OverTimeSetting.Daily">
             <summary>
             Daily
             </summary>
         </member>
-        <member name="F:IQ.Platform.HumanResources.Model.SupportResources.OverTimeSetting.Weekly">
+        <member name="F:IQ.Platform.HumanResources.Model.Enums.OverTimeSetting.Weekly">
             <summary>
             weekly
             </summary>
         </member>
-        <member name="F:IQ.Platform.HumanResources.Model.SupportResources.OverTimeSetting.Monthly">
+        <member name="F:IQ.Platform.HumanResources.Model.Enums.OverTimeSetting.Monthly">
             <summary>
             monthly
             </summary>
         </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.PermissionLevel">
-            <summary>
-            class that represents permission level, this object is intended to map to security role of RQ
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.PermissionLevel.PermissionId">
-            <summary>
-            gets or sets the permission id
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.PermissionLevel.Name">
-            <summary>
-            gets or sets the description of the level
-            </summary>
-        </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.Phone">
-            <summary>
-            gets or sets the Phone
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Phone.Number">
-            <summary>
-            gets or sets the number
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Phone.Extension">
-            <summary>
-            gets or sets the extension number
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.Phone.Type">
-            <summary>
-            gets or sets the type of phone, it could be work, home, etc.
-            </summary>
-        </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.StoreHours">
-            <summary>
-            class that represent the store hours
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Monday">
-            <summary>
-            gets or sets the operating hours for monday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Tuesday">
-            <summary>
-            gets or sets the operating hours for tuesday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Wednesday">
-            <summary>
-            gets or sets the operating hours for wednesday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Thursday">
-            <summary>
-            gets or sets the operating hours for thursday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Friday">
-            <summary>
-            gets or sets the operating hours for friday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Saturday">
-            <summary>
-            gets or sets the operating hours for saturday
-            </summary>
-        </member>
-        <member name="P:IQ.Platform.HumanResources.Model.SupportResources.StoreHours.Sunday">
-            <summary>
-            gets or sets the operating hours for sunday
-            </summary>
-        </member>
-        <member name="T:IQ.Platform.HumanResources.Model.SupportResources.TimeMode">
+        <member name="T:IQ.Platform.HumanResources.Model.Enums.TimeMode">
             <summary>
             custom type of time, AM or PM
             </summary>
         </member>
-        <member name="F:IQ.Platform.HumanResources.Model.SupportResources.TimeMode.Am">
+        <member name="F:IQ.Platform.HumanResources.Model.Enums.TimeMode.Am">
             <summary>
             AM
             </summary>
         </member>
-        <member name="F:IQ.Platform.HumanResources.Model.SupportResources.TimeMode.Pm">
+        <member name="F:IQ.Platform.HumanResources.Model.Enums.TimeMode.Pm">
             <summary>
             PM
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.HumanResources.Model.Configurations.StoreHours">
+            <summary>
+            class that represent the store hours
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Monday">
+            <summary>
+            gets or sets the operating hours for monday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Tuesday">
+            <summary>
+            gets or sets the operating hours for tuesday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Wednesday">
+            <summary>
+            gets or sets the operating hours for wednesday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Thursday">
+            <summary>
+            gets or sets the operating hours for thursday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Friday">
+            <summary>
+            gets or sets the operating hours for friday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Saturday">
+            <summary>
+            gets or sets the operating hours for saturday
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Model.Configurations.StoreHours.Sunday">
+            <summary>
+            gets or sets the operating hours for sunday
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.HumanResources.Entities.Address">
+            <summary>
+            gets or sets the address
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Entities.Address.AddressLine">
+            <summary>
+            gets or sets the address
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Entities.Address.City">
+            <summary>
+            gets or sets the name of the city
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Entities.Address.State">
+            <summary>
+            gets or sets the state
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Entities.Address.Zip">
+            <summary>
+            gets or sets the zip
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.HumanResources.Entities.Address.Country">
+            <summary>
+            gets or sets the country
             </summary>
         </member>
     </members>
