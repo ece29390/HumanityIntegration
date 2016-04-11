@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IQ.Platform.Humanity.Integration.Model</name>
+    </assembly>
+    <members>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.LinkRelations">
+            <summary>
+            iQmetrix link relation names
+            </summary>
+        </member>
+        <member name="F:IQ.Platform.Humanity.Integration.Model.LinkRelations.SampleResource">
+            <summary>
+            link relation to describe the Identity resource.
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SampleResource">
+            <summary>
+            A Sample Resource, used as a placeholder. To be removed after real-world API resources have been added.
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SampleResource.Id">
+            <summary>
+            Unique Identifier for the SampleResource
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SampleResource.Name">
+            <summary>
+            Name for the SampleResource
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SampleResource.Description">
+            <summary>
+            Description for the SampleResource
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.Address">
+            <summary>
+            gets or sets the address
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Address.AddressLine">
+            <summary>
+            gets or sets the address
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Address.City">
+            <summary>
+            gets or sets the name of the city
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Address.State">
+            <summary>
+            gets or sets the state
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Address.Zip">
+            <summary>
+            gets or sets the zip
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Address.Country">
+            <summary>
+            gets or sets the country
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee">
+            <summary>
+            class that represents employee object for employee updates
+            </summary>
+        </member>
+        <member name="M:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.#ctor">
+            <summary>
+            class constructor
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.FirstName">
+            <summary>
+            gets or sets the first name of the employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.LastName">
+            <summary>
+            gets or sets the last name of the employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.PermissionLevels">
+            <summary>
+            gets or sets the levels for this employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Position">
+            <summary>
+            gets or sets the position, this will be mapped to JobTitle of UserManager
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.PrimaryLocation">
+            <summary>
+            gets or sets the primary location
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.UserId">
+            <summary>
+            gets or sets the userid for this employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Locations">
+            <summary>
+            gets or sets the locations, the item is mapped to the ParentEntityId
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Email">
+            <summary>
+            gets or sets the email
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Phone">
+            <summary>
+            gets or sets the phone
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Address">
+            <summary>
+            gets or sets the address
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.JobType">
+            <summary>
+            gets or sets the job type
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.EmploymentDuration">
+            <summary>
+            gets or sets the duration of the employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.PaidDaysOff">
+            <summary>
+            gets or sets the paid days off
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.PaidHoursOff">
+            <summary>
+            gets or sets the paid hours off
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Approver">
+            <summary>
+            gets or sets the name of approver
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.MinimumTimeBetweenShifts">
+            <summary>
+            gets or sets the time between shifts
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.MaximumDaysRowWorked">
+            <summary>
+            gets or sets the days row worked
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.OverTimeSetting">
+            <summary>
+            gets or sets the overtime setting
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.MinimumShift">
+            <summary>
+            gets or sets the minimum shift length in hours
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.MaximumShift">
+            <summary>
+            gets or sets the maximum shift length in hours
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Avatar">
+            <summary>
+            gets or sets the image of an employee
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Employee.Id">
+            <summary>
+            gets or sets the employee id
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.Location">
+            <summary>
+            class that represents the location of a retail store/company
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.CompanyId">
+            <summary>
+            gets or sets the identifier where this location is mapped to
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.CompanyName">
+            <summary>
+            gets or sets the name of the company
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.NumberOfEmployees">
+            <summary>
+            gets or sets the employees on this location
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.CompanyAddress">
+            <summary>
+            gets or sets the address of the company
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.CompanyTimezone">
+            <summary>
+            gets or sets the timezone, example 
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Location.Id">
+            <summary>
+            gets or sets the location id
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.OverTimeSetting">
+            <summary>
+            custom type for overtime
+            </summary>
+        </member>
+        <member name="F:IQ.Platform.Humanity.Integration.Model.SupportResources.OverTimeSetting.Daily">
+            <summary>
+            Daily
+            </summary>
+        </member>
+        <member name="F:IQ.Platform.Humanity.Integration.Model.SupportResources.OverTimeSetting.Weekly">
+            <summary>
+            weekly
+            </summary>
+        </member>
+        <member name="F:IQ.Platform.Humanity.Integration.Model.SupportResources.OverTimeSetting.Monthly">
+            <summary>
+            monthly
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.PermissionLevel">
+            <summary>
+            class that represents permission level, this object is intended to map to security role of RQ
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.PermissionLevel.PermissionId">
+            <summary>
+            gets or sets the permission id
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.PermissionLevel.Name">
+            <summary>
+            gets or sets the description of the level
+            </summary>
+        </member>
+        <member name="T:IQ.Platform.Humanity.Integration.Model.SupportResources.Phone">
+            <summary>
+            gets or sets the Phone
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Phone.Number">
+            <summary>
+            gets or sets the number
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Phone.Extension">
+            <summary>
+            gets or sets the extension number
+            </summary>
+        </member>
+        <member name="P:IQ.Platform.Humanity.Integration.Model.SupportResources.Phone.Type">
+            <summary>
+            gets or sets the type of phone, it could be work, home, etc.
+            </summary>
+        </member>
+    </members>
+</doc>
